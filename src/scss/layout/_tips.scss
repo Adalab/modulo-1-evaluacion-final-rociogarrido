@@ -2,9 +2,9 @@
   padding: 30px 15px 45px 15px;
 
   &__small {
-    font-family: $font-main;
+    font-family: $main-font;
     font-size: 14px;
-    font-weight: normal;
+    /*font-weight: normal;*/
     line-height: 2.14;
     color: $light-blue;
     text-transform: capitalize;
@@ -20,16 +20,16 @@
   }
 
   &__text {
-    font-family: $font-main;
+    font-family: $main-font;
     font-size: 18px;
-    font-weight: normal;
+    /*font-weight: normal;*/
     line-height: 1.67;
     color: $text-color;
     padding: 15px 0 30px 0;
   }
 
   &__button {
-    font-family: $font-main;
+    font-family: $main-font;
     font-size: 20px;
     font-weight: 500;
     color: $button-color;

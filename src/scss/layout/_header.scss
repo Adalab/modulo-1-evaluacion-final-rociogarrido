@@ -5,17 +5,17 @@
   background-position: center top;
 
   &__hero {
-    height: 568px;
+    /*height: 568px;*/
     width: 100%;
     &--menu {
       position: fixed;
-      top: 0;
+      /*top: 0;*/
       background-color: $blue;
       width: 44px;
       height: 44px;
       display: flex;
       justify-content: center;
-      align-items: center;
+      /*align-items: center;*/
       .header__hero--menu-link {
         padding: 13px;
       }
@@ -24,7 +24,7 @@
     &--container {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      /*justify-content: center;*/
       align-items: center;
       padding: 384px 15px 0 15px;
       .header__hero--title {
@@ -43,11 +43,11 @@
 
       .header__hero--text {
         height: 32px;
-        font-family: $font-main;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: normal;
+        font-family: $main-font;
+        font-size: $font-size;
         color: $white;
+        /*font-weight: normal;*/
+        /*line-height: normal;*/
         text-align: center;
         margin-bottom: 45px;
       }
@@ -58,8 +58,8 @@
         border-radius: 22.5px;
         background-color: $white;
         display: flex;
-        justify-content: center;
         align-items: center;
+        /*justify-content: center;*/
         .header__hero--button-link {
           padding: 13px;
         }

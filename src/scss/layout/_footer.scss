@@ -1,9 +1,9 @@
 .footer {
+  height: 465px;
   background-color: $dark-blue;
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 465px;
 
   &__button {
     width: 45px;
@@ -21,6 +21,7 @@
       padding: 13px;
     }
   }
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -33,9 +34,9 @@
     }
     .footer__menu--list {
       list-style: none;
-      font-family: $font-main;
-      font-size: 16px;
-      font-weight: normal;
+      font-family: $main-font;
+      font-size: $font-size;
+      /*font-weight: normal;*/
       line-height: 1.88;
       text-align: center;
 
@@ -51,7 +52,7 @@
       flex-direction: column;
 
       .footer__container--small-copy {
-        font-family: $font-main;
+        font-family: $main-font;
         font-size: 14px;
         font-weight: normal;
         line-height: 2.14;
