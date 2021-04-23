@@ -1,5 +1,66 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.footer {
+  background-color: $dark-blue;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 465px;
+
+  &__button {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 2px 4px 0;
+    background-color: $white;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    &--link {
+      padding: 13px;
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+    .footer__menu1,
+    .footer__menu2 {
+      padding-bottom: 30px;
+    }
+    .footer__menu--list {
+      list-style: none;
+      font-family: $font-main;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.88;
+      text-align: center;
+
+      .footer__menu--link {
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+      }
+    }
+    .footer__container--small {
+      display: flex;
+      flex-direction: column;
+
+      .footer__container--small-copy {
+        font-family: $font-main;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 2.14;
+        color: $white;
+        text-align: center;
+      }
+      .footer__container--small-span {
+        color: $button-color;
+      }
+    }
+  }
 }

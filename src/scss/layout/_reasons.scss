@@ -1,0 +1,54 @@
+.reasons {
+  height: 624px;
+  background-color: $ice-blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 15px 60px 15px;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: $black;
+    text-transform: capitalize;
+    padding-bottom: 45px;
+  }
+
+  &__article {
+    text-align: center;
+    padding: 0 70px 45px 70px;
+
+    &--title {
+      font-family: $font-title;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.67;
+      color: $black;
+    }
+
+    &--text {
+      width: 180px;
+      height: 63px;
+      font-family: $font-main;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 1.67;
+      color: $black;
+    }
+  }
+  &__button {
+    width: 184px;
+    height: 45px;
+    font-family: $font-main;
+    font-size: 20px;
+    font-weight: 500;
+    color: $white;
+    border: solid 2px $button-color;
+    background-color: $button-color;
+    border-radius: 22.5px;
+  }
+}
