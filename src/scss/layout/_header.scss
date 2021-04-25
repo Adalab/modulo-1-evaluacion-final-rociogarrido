@@ -3,10 +3,14 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center top;
+  @media all and (min-width: 768px) {
+    height: 768px;
+  }
 
   &__hero {
     /*height: 568px;*/
     width: 100%;
+
     &--menu {
       width: 44px;
       height: 44px;
@@ -24,9 +28,13 @@
     &--container {
       display: flex;
       flex-direction: column;
-      /*justify-content: center;*/
+      justify-content: center;
       align-items: center;
-      padding: 384px 15px 0 15px;
+      padding: 284px 15px 0 15px;
+      @media all and (min-width: 768px) {
+        padding-top: 384px;
+      }
+
       .header__hero--title {
         width: 290px;
         height: 110px;
@@ -39,6 +47,16 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 10px;
+        @media all and (min-width: 768px) {
+          width: 690px;
+          height: 212px;
+          font-size: 80px;
+        }
+        @media all and (min-width: 1200px) {
+          width: 730px;
+          height: 264px;
+          font-size: 100px;
+        }
       }
 
       .header__hero--text {
@@ -50,6 +68,10 @@
         /*line-height: normal;*/
         text-align: center;
         margin-bottom: 45px;
+        @media all and (min-width) {
+          font-size: 24px;
+          margin-bottom: 30px;
+        }
       }
 
       .header__hero--button {
