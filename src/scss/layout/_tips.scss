@@ -1,5 +1,11 @@
 .tips {
   padding: 30px 15px 45px 15px;
+  @media all and (min-width: 768px) {
+    padding: 30px 39px 60px 39px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 60px 275px 60px 275px;
+  }
 
   &__small {
     font-family: $main-font;
@@ -17,6 +23,10 @@
     line-height: 1.25;
     color: $black;
     text-transform: capitalize;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.73;
+    }
   }
 
   &__text {
@@ -26,6 +36,11 @@
     line-height: 1.67;
     color: $text-color;
     padding: 15px 0 30px 0;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.5;
+      padding: 30px 0;
+    }
   }
 
   &__button {
@@ -38,5 +53,14 @@
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px $button-color;
+    cursor: pointer;
+    transition: background-color ease 0.5s;
+    transition: ease 0.3s;
+    @media all and (min-width: 768px) {
+      width: 91px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 160px;
+    }
   }
 }
