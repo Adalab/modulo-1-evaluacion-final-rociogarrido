@@ -5,8 +5,20 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
-  /*align-items: center;*/
+  align-items: center;
+  justify-content: center;
   padding: 30px 15px 60px 15px;
+  @media all and (min-width: 768px) {
+    height: 397px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px 39px 60px 35px;
+  }
+  @media all and (min-width: 1200px) {
+    height: 427px;
+    padding: 60px 83px;
+  }
 
   &__title {
     font-family: $font-title;
@@ -16,11 +28,23 @@
     color: $black;
     text-transform: capitalize;
     padding-bottom: 45px;
+    @media all and (min-width: 768px) {
+      grid-column: 1/4;
+      font-size: 26px;
+      line-height: 1.73;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 32px;
+      line-height: 1.41;
+    }
   }
 
   &__article {
     text-align: center;
     padding: 0 55px 45px 55px;
+    @media all and (min-width: 768px) {
+      padding: 0 38px 60px 38px;
+    }
 
     &--title {
       font-family: $font-title;
@@ -28,6 +52,10 @@
       font-weight: bold;
       line-height: 1.67;
       color: $black;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+      }
     }
 
     &--text {
@@ -38,6 +66,12 @@
       /*font-weight: normal;*/
       line-height: 1.67;
       color: $black;
+      @media all and (min-width: 768px) {
+        height: 68px;
+        font-size: 20px;
+        line-height: 1.5;
+        padding-top: 14px;
+      }
     }
   }
   &__button {
@@ -50,5 +84,15 @@
     border: solid 2px $button-color;
     background-color: $button-color;
     border-radius: 22.5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    @media all and (min-width: 768px) {
+      grid-column: 1/4;
+      width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 255px;
+      text-transform: capitalize;
+    }
   }
 }
