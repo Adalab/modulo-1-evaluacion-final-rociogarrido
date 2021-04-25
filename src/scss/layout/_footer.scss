@@ -63,7 +63,6 @@
       list-style: none;
       font-family: $main-font;
       font-size: $font-size;
-      /*font-weight: normal;*/
       line-height: 1.88;
       text-align: center;
       @media all and (min-width: 768px) {
@@ -77,7 +76,8 @@
         padding: 10px;
       }
     }
-    .footer__container--small {
+
+    &--small {
       display: flex;
       flex-direction: column;
       @media all and (min-width: 768px) {
@@ -88,7 +88,7 @@
         padding-right: 30px;
       }
 
-      .footer__container--small-copy {
+      &-copy {
         font-family: $main-font;
         font-size: 14px;
         font-weight: normal;
@@ -99,7 +99,8 @@
           text-align: left;
         }
       }
-      .footer__container--small-span {
+
+      &-span {
         color: $button-color;
       }
     }
