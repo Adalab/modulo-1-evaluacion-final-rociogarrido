@@ -13,13 +13,13 @@
     height: 45px;
     box-shadow: 0 2px 4px 0;
     background-color: $white;
-    border-radius: 22.5px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
     position: absolute;
-    top: -20px;
+    top: -22.5px;
     &--link {
       padding: 13px;
     }
