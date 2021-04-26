@@ -67,13 +67,11 @@
         padding-right: 30px;
       }
     }
-
     .footer__menu2 {
       @media all and (min-width: 768px) {
         order: -1;
       }
     }
-
     .footer__menu--list {
       list-style: none;
       font-family: $main-font;
@@ -83,7 +81,6 @@
       @media all and (min-width: 768px) {
         text-align: left;
       }
-
       .footer__menu--link {
         color: $white;
         text-transform: uppercase;
@@ -101,7 +98,6 @@
         width: 160px;
         padding-right: 30px;
       }
-
       &-copy {
         font-family: $main-font;
         font-size: 14px;
@@ -112,7 +108,6 @@
           text-align: left;
         }
       }
-
       &-span {
         color: $button-color;
       }
