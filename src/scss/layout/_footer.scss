@@ -22,6 +22,7 @@
     top: -22.5px;
     &:hover {
       animation: button 2s ease;
+      animation-iteration-count: infinite;
     }
     @keyframes button {
       0% {
