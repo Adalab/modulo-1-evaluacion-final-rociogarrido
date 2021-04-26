@@ -4,6 +4,9 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   @media all and (min-width: 768px) {
     height: 768px;
   }
@@ -13,6 +16,7 @@
     height: 44px;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: $blue;
     display: flex;
     justify-content: center;
@@ -24,10 +28,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 284px;
-    @media all and (min-width: 768px) {
-      padding-top: 384px;
-    }
 
     &--title {
       font-family: $font-title;
@@ -74,6 +74,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 53px;
       &-arrow {
         padding: 13px;
       }
