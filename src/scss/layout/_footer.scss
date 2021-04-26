@@ -20,7 +20,21 @@
     align-items: center;
     position: absolute;
     top: -22.5px;
-    &--link {
+    &:hover {
+      animation: button 2s ease;
+    }
+    @keyframes button {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.5);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    &--arrow {
       padding: 13px;
     }
   }
