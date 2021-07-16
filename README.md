@@ -29,6 +29,6 @@ Para poder usar este proyecto tienes que seguir estos pasos:
 
 ## Demo
 
-Para ver el resultado del desarrollo de la página web puedes visitar el siguiente enlace: https://beta.adalab.es/modulo-1-evaluacion-final-rociogarrido/
+Para ver el resultado del desarrollo de la página web puedes visitar el siguiente enlace: https://rociogarrido.github.io/anonymous-proxy/
 
 Este proyecto ha sido desarrollado por Rocío Garrido Añón.
